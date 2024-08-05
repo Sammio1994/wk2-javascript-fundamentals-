@@ -12,6 +12,8 @@
 
 let name = "Samm";
 let age = 29;
-let FavouriteDrink = "{ProteinShake"
+let favouriteDrink = "ProteinShake"
 
-console.log("Hi. My name is " + name + ". My age is " + age + " and my fav drink is " + FavouriteDrink)
+console.log("Hi. My name is " + name + ". My age is " + age + " and my fav drink is " + favouriteDrink)
+
+console.log(`Hi. My name is ${name} . My age is ${age}  and my fav drink is  ${favouriteDrink}`)
