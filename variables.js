@@ -10,10 +10,22 @@
 
 // console.log("my favourite drink is " + FavouriteDrink);
 
-let name = "Samm";
-let age = 29;
-let favouriteDrink = "ProteinShake"
+// let name = "Samm";
+// let age = 29;
+// let favouriteDrink = "ProteinShake"
 
-console.log("Hi. My name is " + name + ". My age is " + age + " and my fav drink is " + favouriteDrink)
+// console.log("Hi. My name is " + name + ". My age is " + age + " and my fav drink is " + favouriteDrink)
 
-console.log(`Hi. My name is ${name} . My age is ${age}  and my fav drink is  ${favouriteDrink}`)
+// console.log(`Hi. My name is ${name} . My age is ${age}  and my fav drink is  ${favouriteDrink}`)
+
+let name = "Ashleigh";
+let age = "26";
+let favouriteColor = "Purple"
+
+console.log(`Hi. My name is ${name} . My age is ${age}  and my fav drink is  ${favouriteColor}`)
+
+let breakfast = "Toast";
+let lunch = "boiledEggs";
+let dinner = "chickenWings";
+
+console.log(`${breakfast} had jam and marmalade on . ${lunch} was with some fruit and dinner will be delicious bbq ${dinner}`)
