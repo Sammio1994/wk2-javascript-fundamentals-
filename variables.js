@@ -32,4 +32,10 @@
 
 //console.log(`tomorrows will be the same as today. ${breakfast} . ${lunch} and ${dinner}`)
 
-let dateToday = new Date(`1994, 09, 02`);
+
+
+let dateToday = 
+new Date(`1994, 09, 02`);
+
+const today =  new Date();
+const myBirthDate = ne Date(`1994, 09, 02`)
