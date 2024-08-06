@@ -31,13 +31,23 @@
 //     console.log("surprise surprise")
 // }
 
-let diceNum = 2;
+// let diceNum = 2;
 
-switch(diceNum) {
-    case diceNum <4:
-        console.log("winner");
-        break;
-    default:
-        console.log("looser");
-        break;
+// switch(diceNum) {
+//     case diceNum <4:
+//         console.log("winner");
+//         break;
+//     default:
+//         console.log("looser");
+//         break;
+// }
+
+// Activity 1
+
+let age = 21;
+
+if (age < 18) {
+    console.log(`Too Young`)
+} else{
+    console.log(`Old enough`)
 }
