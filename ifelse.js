@@ -10,10 +10,34 @@
 //     console.log("who know")
 // }; 
 
-let diceNum = 6
+// let diceNum = Math.floor(Math.random()*6)
 
-if (diceNum == 6){
-    console.log("WINNER WINNER CHICKEN DINNER!")
-} else if (diceNum == 1) {
-    console.log(LOOOOOOSERRRR!)
+// if (diceNum >= 3){
+//     console.log("WINNER WINNER CHICKEN DINNER!")
+// } else if (diceNum == 1) {
+//     console.log("LOOOOOOSERRRR")
+// } else {
+//     console.log("RETRY")
+// }
+
+// let place = "Southport";
+// let weather = "sweltering";
+
+// if (place == "Southport"  || weather == "sweltering" ) {
+//     console.log("suncream time")
+// } else if (place == "Southport" || weather == "downpoor") {
+//         console.log("bloody birtish weather")
+// } else {
+//     console.log("surprise surprise")
+// }
+
+let diceNum = 2;
+
+switch(diceNum) {
+    case diceNum <4:
+        console.log("winner");
+        break;
+    default:
+        console.log("looser");
+        break;
 }
