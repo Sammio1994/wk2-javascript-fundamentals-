@@ -48,20 +48,24 @@
 
 // if (age < 18) {
 //     console.log(`Too Young`)
-// } else{
+// } else {
 //     console.log(`Old enough`)
-// 
+// }
 
 // Activity 2
 
-let pizza = "Ham and Pineapple"
+// let pizza = "Ham and Pineapple"
 
-if (pizza == "Ham and Pineapple".toLocaleLowerCase) {
-    console.log("NICE! Add some dip for the crusts")
-}else if(pizza =="TexasBBQ".toLocaleLowerCase) {
-    console.log("Tasty but a bit boring now") 
-}else if(pizza =="Mighty Meatior".toLocaleLowerCase) {
-    console.log("That would be my second choice")
-}else {
-    console.log("who know")
-}; 
+// if (pizza == "Ham and Pineapple".toLocaleLowerCase) {
+//     console.log("NICE! Add some dip for the crusts")
+// }else if(pizza =="TexasBBQ".toLocaleLowerCase) {
+//     console.log("Tasty but a bit boring now") 
+// }else if(pizza =="Mighty Meatior".toLocaleLowerCase) {
+//     console.log("That would be my second choice")
+// }else {
+//     console.log("who know")
+// }; 
+// Activity 3
+
+String.legnth()
+if
