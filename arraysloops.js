@@ -7,13 +7,31 @@
 
 // console.log (coffeeOrder);
 
-let favouriteSongs = [
-    "somethine - something ",
-    "something - something",
-    "something - something"
-]
-favouriteSongs.pop();
+// let favouriteSongs = [
+//     "somethine - something ",
+//     "something - something",
+//     "something - something"
+// ]
+// favouriteSongs.pop();
 
-console.log (favouriteSongs);
-favouriteSongs.splice(2, 0, "something, something")
-console.log(favouriteSongs[1]);
+// console.log (favouriteSongs);
+// favouriteSongs.splice(2, 0, "something, something")
+// console.log(favouriteSongs[1]);
+
+// let favouriteSongs = [
+//     "somethine - something ",
+//     "something - something",
+//     "something - something"
+// ];
+
+// for(let i = 0; i < favouriteSongs.length; i++) {
+//     console.log(favouriteSongs[i]);
+// }
+
+let multiplesTwo = [];
+for (let i = 0; i <20; i++) {
+    if (i % 2 ==0) {
+        multiplesTwo.push(i);
+    }
+}
+console.log(`Numbers divisible by 2: ${multiplesTwo}`)
