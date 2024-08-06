@@ -28,10 +28,18 @@
 //     console.log(favouriteSongs[i]);
 // }
 
-let multiplesTwo = [];
-for (let i = 0; i <20; i++) {
-    if (i % 2 ==0) {
-        multiplesTwo.push(i);
-    }
+// let multiplesTwo = [];
+// for (let i = 0; i <20; i++) {
+//     if (i % 2 ==0) {
+//         multiplesTwo.push(i);
+//     }
+// }
+// console.log(`Numbers divisible by 2: ${multiplesTwo}`)
+
+let age = 15;
+
+while ( age < 18) {
+    console.log("you are a minor")
+    age++
 }
-console.log(`Numbers divisible by 2: ${multiplesTwo}`)
+console.log("you are adult")
