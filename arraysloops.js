@@ -3,7 +3,7 @@ let coffeeOrder = [
     "Ben - Capa",
     "Charlie - Whatsevers new"
 ]
-coffeeOrder.push("Donna-Espresso");
+coffeeOrder.pop();
 
 console.log (coffeeOrder);
 
