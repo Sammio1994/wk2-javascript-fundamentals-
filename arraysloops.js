@@ -3,6 +3,7 @@ let coffeeOrder = [
     "Ben - Capa",
     "Charlie - Whatsevers new"
 ]
+coffeeOrder.push("Donna-Espresso");
 
-console.log (coffeeOrder.length);
+console.log (coffeeOrder);
 
