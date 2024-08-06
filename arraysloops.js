@@ -36,10 +36,19 @@
 // }
 // console.log(`Numbers divisible by 2: ${multiplesTwo}`)
 
-let age = 15;
+// let age = 15;
 
-while ( age < 18) {
-    console.log("you are a minor")
-    age++
+// while ( age < 18) {
+//     console.log("you are a minor")
+//     age++
+// }
+// console.log("you are adult")
+
+let cards = ["diamond", "spade", "heart", "club"];
+let currentCard = "spade";
+
+while(currentCard !="club"){
+    console.log(currentCard) ;
+    currentCard = cards[Math.floor(Math.random()*4)];
 }
-console.log("you are adult")
+console.log(currentCard);
