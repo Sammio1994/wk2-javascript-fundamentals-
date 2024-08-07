@@ -8,11 +8,14 @@
 //     console.log(`Senior`)
 // }
 
-const pressGrindBeans = () => {
-    console.log(`Gridining for 20 seconds`);
+// const pressGrindBeans = () => {
+//     console.log(`Gridining for 20 seconds`);
+// }
+
+// pressGrindBeans();
+
+const favColor = () => {
+    console.log(`myfavColor is turquiose`)
 }
 
-pressGrindBeans();
-pressGrindBeans();
-pressGrindBeans();
-pressGrindBeans();
+favColor()
