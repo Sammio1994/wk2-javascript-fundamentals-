@@ -16,10 +16,10 @@
 // pressGrindBeans();
 
 const favColor = (color) => {
-    console.log(`myfavColor is turquiose`)
+    console.log(`myfavColor color is ${color}`)
 }
 
-favColor()
+favColor("turquiose")
 
 
 
