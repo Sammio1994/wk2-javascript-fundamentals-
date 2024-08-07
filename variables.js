@@ -31,11 +31,3 @@
 //console.log(`${breakfast} had jam and marmalade on . ${lunch} was with some fruit and dinner will be delicious bbq ${dinner}`)
 
 //console.log(`tomorrows will be the same as today. ${breakfast} . ${lunch} and ${dinner}`)
-
-
-
-let dateToday = 
-new Date(`1994, 09, 02`);
-
-const today =  new Date();
-const myBirthDate = ne Date(`1994, 09, 02`)

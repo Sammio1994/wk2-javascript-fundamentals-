@@ -25,7 +25,7 @@
 
 
 
-// let coffeeIsGrinding = false;
+// let coffeeIsGrinding = Math.floor(Math.random()*90)
 // const pressGrindBeans = () => {
 //     if (coffeeIsGrinding){
 //         coffeeIsGrinding = false
@@ -48,15 +48,47 @@
 // cashWithdraw(3000, 22222322)
 // cashWithdraw(200, 22222212)
 
-const addUp = (num1, num2) => {
-    return num1 + num2;
-}
-addUp(2, 3)
+// const addUp = (num1, num2) => {
+//     return num1 + num2;
+//}
+// addUp(Math.floor(Math.random()*90), Math.floor(Math.random()*90))
 
-console.log(addUp(4, 5))
+// console.log(addUp(Math.floor(Math.random()*90), Math.floor(Math.random()*90)))
 
-if( addUp(10,4) > 10){
-    console.log("bigger than 10")
-} else {
-    console.log(`not bigger`)
-}
+// if( addUp(10,4) > 10){
+//     console.log("bigger than 10")
+// } else {
+//     console.log(`not bigger`)
+// }
+
+//Act1
+// function factorial (n) {
+//     if ((n => 0) || (n => 1)) {
+//     } else {
+//         return (n * factorial(n-1));
+//     }
+// }
+
+//Act2
+//let orderCount = 0;
+//const takeOrder =  (Pineapple) => {
+//   console.log(`Pizza with ${Pineapple}`);
+//   orderCount++;
+//}
+//takeOrder("Pineaaple");
+
+//Act3
+//  const cashWithdrawal = (amount, accnum) => {
+//      console.log(`Withdrawing ${amount} from ${accnum}`);
+//  }
+//  const cashWithdraw = (amount, accnum) => {
+//      console.log(`Withdrawing ${amount} from ${accnum}`);
+//  }
+//  cashWithdraw(300, 22222222)
+//  cashWithdraw(30, 22222242)
+//  cashWithdraw(3000, 22222322)
+//  cashWithdraw(200, 22222212)
+
+//  const addUp = (num1, num2) => {
+//      return num1 + num2;
+// }

@@ -67,5 +67,3 @@
 // }; 
 // Activity 3
 
-String.legnth()
-if
