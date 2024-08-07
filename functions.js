@@ -15,26 +15,35 @@
 
 // pressGrindBeans();
 
-// const favColor = () => {
-//     console.log(`myfavColor is turquiose`)
+const favColor = (color) => {
+    console.log(`myfavColor is turquiose`)
+}
+
+favColor()
+
+
+
+
+
+// let coffeeIsGrinding = false;
+// const pressGrindBeans = () => {
+//     if (coffeeIsGrinding){
+//         coffeeIsGrinding = false
+//         console.log(`continue grinding`)
+//     } else {
+//         console.log(`stopTheGrinding`)
+//         coffeeIsGrinding = true
+//     }
+//     }
+//     pressGrindBeans();
+//     pressGrindBeans();
+//     pressGrindBeans();
+
+// const cashWithdraw = (amount, accnum) => {
+//     console.log(`Withdrawing ${amount} from ${accnum}`);
 // }
 
-// favColor()
-
-
-
-
-
-let coffeeIsGrinding = false;
-const pressGrindBeans = () => {
-    if (coffeeIsGrinding){
-        coffeeIsGrinding = false
-        console.log(`continue grinding`)
-    } else {
-        console.log(`stopTheGrinding`)
-        coffeeIsGrinding = true
-    }
-    }
-    pressGrindBeans();
-    pressGrindBeans();
-    pressGrindBeans();
+// cashWithdraw(300, 22222222)
+// cashWithdraw(30, 22222242)
+// cashWithdraw(3000, 22222322)
+// cashWithdraw(200, 22222212)
