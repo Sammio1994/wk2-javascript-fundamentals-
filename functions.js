@@ -15,11 +15,11 @@
 
 // pressGrindBeans();
 
-const favColor = (color) => {
-    console.log(`myfavColor color is ${color}`)
-}
+// const favColor = (color) => {
+//     console.log(`myfavColor color is ${color}`)
+// }
 
-favColor("turquiose")
+// favColor("turquiose")
 
 
 
@@ -47,3 +47,16 @@ favColor("turquiose")
 // cashWithdraw(30, 22222242)
 // cashWithdraw(3000, 22222322)
 // cashWithdraw(200, 22222212)
+
+const addUp = (num1, num2) => {
+    return num1 + num2;
+}
+addUp(2, 3)
+
+console.log(addUp(4, 5))
+
+if( addUp(10,4) > 10){
+    console.log("bigger than 10")
+} else {
+    console.log(`not bigger`)
+}
