@@ -78,17 +78,11 @@
 //takeOrder("Pineaaple");
 
 //Act3
-//  const cashWithdrawal = (amount, accnum) => {
-//      console.log(`Withdrawing ${amount} from ${accnum}`);
-//  }
-//  const cashWithdraw = (amount, accnum) => {
-//      console.log(`Withdrawing ${amount} from ${accnum}`);
-//  }
-//  cashWithdraw(300, 22222222)
-//  cashWithdraw(30, 22222242)
-//  cashWithdraw(3000, 22222322)
-//  cashWithdraw(200, 22222212)
-
-//  const addUp = (num1, num2) => {
-//      return num1 + num2;
-// }
+//  const cashWithdrawal = (amount = 400, accnum = 1234) => {
+//     if (accnum === 1234 && amount <=400) {
+//         console.log(`Withdrawing ${amount} from ${accnum}`);
+//        }else {
+//             console.log(`incorrect ${amount}Try again`)
+//         }
+//      }
+//  cashWithdrawal(300, 1234)
