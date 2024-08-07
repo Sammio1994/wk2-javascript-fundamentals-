@@ -8,14 +8,33 @@
 //     console.log(`Senior`)
 // }
 
+// let coffeeIsGrinding = false;
 // const pressGrindBeans = () => {
 //     console.log(`Gridining for 20 seconds`);
 // }
 
 // pressGrindBeans();
 
-const favColor = () => {
-    console.log(`myfavColor is turquiose`)
-}
+// const favColor = () => {
+//     console.log(`myfavColor is turquiose`)
+// }
 
-favColor()
+// favColor()
+
+
+
+
+
+let coffeeIsGrinding = false;
+const pressGrindBeans = () => {
+    if (coffeeIsGrinding){
+        coffeeIsGrinding = false
+        console.log(`continue grinding`)
+    } else {
+        console.log(`stopTheGrinding`)
+        coffeeIsGrinding = true
+    }
+    }
+    pressGrindBeans();
+    pressGrindBeans();
+    pressGrindBeans();
