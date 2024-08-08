@@ -1,9 +1,17 @@
-let person = {
-    name: "john",
-    age: 33
+let newPerson = {
+    name: "Effy",
+    age: 33,
+    sayHi(){
+        console.log(this.name)
+        // return this.name
+    }
 }
-// console.log(person.name)
-// console.log(person.age)
+newPerson.sayHi()
 
-let chosenKey = "name"
-console.log(person[chosenKey])
+// console.log(person.age)
+// let chosenKey = "name"
+// console.log(person[chosenKey])
+// person.age = 200
+// person.favSongs = ["we will rock you"]
+
+// console.log (person)
