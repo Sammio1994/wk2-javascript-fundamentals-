@@ -28,3 +28,17 @@
 
 // pet.eat = ("fruit")
 // console.log(pet.sayHi())
+
+// // Act 3
+// let coffeeShop = {
+//     branch: "BigWhite",
+//     menu: {food: ["Carbonarra £3.00, Lasania £2.50"
+//     ], drink: ["Coffee £4.00, Wine £6.00"]},
+//     Order(){
+        
+//         return `One ${food}, Two ${drink}`
+        
+//     }       
+// }
+// console.log(coffeeShop.menu.food)
+// console.log(coffeeShop.menu.drink)
