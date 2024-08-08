@@ -3,10 +3,10 @@ let newPerson = {
     age: 33,
     sayHi(){
         console.log(this.name)
-        // return this.name
+        return `I am ${this.name}`
     }
 }
-newPerson.sayHi()
+console.log(newPerson.sayHi())
 
 // console.log(person.age)
 // let chosenKey = "name"
