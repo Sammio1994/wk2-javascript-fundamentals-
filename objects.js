@@ -37,14 +37,15 @@ let coffeeShop = {
     foodOne: "Carbonarra",
     drinkOne: "Wine",
     foodTwo: "Lasania",
+    drinkTwo: "Coffee",
 
     Order(){    console.log(`Welcome to ${this.branch} coffee shop, what would you like?
-      ,I will demolish One ${this.foodOne} and quench my thirst with Two ${this.drinkOne}`)
+      , \nI will demolish one ${this.foodTwo} and quench my thirst with one ${this.drinkTwo}`)
       
     let total = 0
-    total += this.menu.food[this.menu.food.indexOf(this.foodOne)+1]
-    total += this.menu.drink[this.menu.drink.indexOf(this.drinkOne)+1]
-    console.log(`That will come too ${total}`)
+    total += this.menu.food[this.menu.food.indexOf(this.foodTwo)+1]
+    total += this.menu.drink[this.menu.drink.indexOf(this.drinkTwo)+1]
+    console.log(` \nThat will come too ${total}`)
     }
         
 

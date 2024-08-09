@@ -67,3 +67,27 @@
 // }; 
 // Activity 3
 
+// let password = "password";
+// if (password = password.length >= 8){
+//     console.log("strongPassword")
+// } else {console.log("weakPassword")}
+
+// Act4
+
+// let Num = 20;
+// if (Num % 3 === 0 && Num % 5 === 0){
+//     console.log("fizzbuzz")
+// }
+// else if (Num % 3 === 0){
+//     console.log("fizz")
+// } else if (Num % 5 === 0){
+//     console.log("buzz")
+// }
+
+// Act5
+
+let Num = 2002
+if (Num.toString().split("").reverse().join("")==Num){
+    console.log("palindrome")
+}
+else {console.log("not a palindrome")}

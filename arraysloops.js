@@ -44,11 +44,13 @@
 // }
 // console.log("you are adult")
 
-let cards = ["diamond", "spade", "heart", "club"];
-let currentCard = "spade";
+// let cards = ["diamond", "spade", "heart", "club"];
+// let currentCard = "spade";
 
-while(currentCard !="club"){
-    console.log(currentCard) ;
-    currentCard = cards[Math.floor(Math.random()*4)];
-}
-console.log(currentCard);
+// while(currentCard !="club"){
+//     console.log(currentCard) ;
+//     currentCard = cards[Math.floor(Math.random()*4)];
+// }
+// console.log(currentCard);
+
+// Act1
