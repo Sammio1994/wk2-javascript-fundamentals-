@@ -47,9 +47,9 @@
 // let age = 21;
 
 // if (age < 18) {
-//     console.log(`Too Young`)
+//     console.log(`True`)
 // } else {
-//     console.log(`Old enough`)
+//     console.log(`False`)
 // }
 
 // Activity 2
@@ -86,8 +86,36 @@
 
 // Act5
 
-let Num = 2002
-if (Num.toString().split("").reverse().join("")==Num){
-    console.log("palindrome")
-}
-else {console.log("not a palindrome")}
+// let Num = 2002
+// if (Num.toString().split("").reverse().join("")==Num){
+//     console.log("palindrome")
+// }
+// else {console.log("not a palindrome")}
+
+//Act8
+// let word = "word";
+
+// if (word [0] === word [3]) {
+//     console.log(`True`)
+// } else {
+//     console.log(`False`)
+// }
+
+// Act9
+// let num1 = 7
+// let num2 = 6
+// if ((num1 + num2) % 2 === 0){
+// console.log(num1 + num2)
+// }
+// else{
+//     console.log(num1 * num2)
+// }
+    //     console.log("fizzbuzz")
+// let Num = 20;
+// if 
+// }
+// else if (Num % 3 === 0){
+//     console.log("fizz")
+// } else if (Num % 5 === 0){
+//     console.log("buzz")
+// }

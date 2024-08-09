@@ -53,4 +53,22 @@
 // }
 // console.log(currentCard);
 
-// Act1
+// Act2
+// for (let index = 0; index <6 ; index++) {
+//     console.log (Math.random()*50);
+// }
+//Act3
+// for (let index = 9; index > 0; index--) {
+//     console.log (index)
+    
+// }
+//Act6
+// let bob = ["samm", "mmas", "john"]
+// let hannah = ["samm", "mas", "johnny"]
+// for (let index = 0; index < bob.length; index++) {
+//     for (let j = 0; j < hannah.length; j++){
+//         if (bob[index]===hannah[j]){
+//             console.log(hannah[j])
+//         }
+//     }
+// }
